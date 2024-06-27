@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>GameArena</title>
+   <link rel="stylesheet" href="../obligatorio prog 1/styles/index.css">
+   <link rel="stylesheet" href="../obligatorio prog 1/styles/todas_las_paginas.css">
+   <script defer src="./js/index.js"></script>
+   
+   
+  </head>
+  
+
+
+
+  <body>
+   <header>
+      <nav>
+       <a href="./index.html"><img src="./images/logogamearenapng.png" id="logo" alt = "Logo"></a>
+       <div>
+        <a href="pages/admin.html">ADMIN</a>
+        <a href="pages/cart.html" id="cart"><img src="./images/carrito_de_compras-removebg-preview.png" alt="Carrito de Compras"><span id="cuenta-carrito">0</span></a>
+       </div>
+      </nav>
+
+
+
+    </header>
+   
+    <main>
+      
+      <div class="contenedor">
+        
+          
+        <div class="contenedor-juegos">  
+          <ul class="juegos" id="lista-juegos">
+          </ul>
+        </div>
+        <div class= "carrito">
+          <p>Carrito Total Unidades:
+             <span id="carritoTotalUnidades">0</span>
+          </p>
+          <p>
+            Carrito total precio:US$<span id="carritoTotalPrecio">0</span>
+          </p>
+          <p id="notificacion-descuento"></p>
+          <button id="comprar-carrito">Comprar Juegos</button>
+        </div>
+      </div> 
+    </main> 
+  
+    <footer>
+      <p>Contactanos vía mail: gamearenasupport@gmail.com</p>
+    </footer>
+  </body>
+</html>
